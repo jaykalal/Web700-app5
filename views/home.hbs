@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB700</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="/theme.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Jay Kalal</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					 {{#navLink "/"}} Home {{/navLink}}
+					 {{#navLink "/about"}} About {{/navLink}}
+					 {{#navLink "/htmlDemo"}} Html Demo {{/navLink}}
+					 {{#navLink "/employees/add"}} Employee add {{/navLink}}
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/employees">Employees</a></li>
+					<li class="nav-item"><a class="nav-link" href="/managers">Managers</a></li>
+					<li class="nav-item"><a class="nav-link" href="/departments">Departments</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<main class="col-md-12">
+
+
+
+					<!-- Start your code here -->
+					<h1>Welcome to my website, I will be demonstrating HTML5 principles
+						and techniques, Routing in Express </h1>
+					<p>This site consists of 3 static views (Home,
+						About, HTML Demo) as well as 5 routes that supply data , including: All Employees, Employees by Department, A
+						Single Employee By Employee Number, All Managers and All Departments. Below are the mentioned links</p>
+					<br>
+					<br>
+					<h2>All about links</h2>
+					<a href="/about">To About</a>
+					<br>
+					<a  href="/home">To Home</a>
+					<br>
+					<a href="/htmlDemo">Html Demo</a>
+					<br>
+					<a href="/employees" >To Employees</a>
+					<br>
+					<a href="/managers" >To all the Managers</a>
+					<br>
+					<a href="/departments">To all the Departments</a>
+					<br>
+			
+					<h3>About html5 </h3>
+					<p>HTML5 is the fifth revision and newest version of the HTML standard. It offers new features that provide not only rich media support but also enhance support for creating web applications that can interact with users, their local data, and servers more easily and effectively than was previously possible.
+					Some HTML5 features remain unsupported by some browsers. However, Gecko, and by extension, Firefox, has very good support for HTML5, and work continues toward supporting more of its features. Gecko began supporting some HTML5 features in version 1.8.1. You can find a list of all of the HTML5 features that Gecko currently supports on the main HTML5 page. For detailed information about multiple browsers' support of HTML5 features, refer to the CanIUse website.
+					HTML5 is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications. This set is sometimes called HTML5 & friends and often shortened to just HTML5.
+
+					Designed to be usable by all Open Web developers, this reference page links to numerous resources about HTML5 technologies, classified into several groups based on their function.
+
+					Semantics: allowing you to describe more precisely what your content is.
+					Connectivity: allowing you to communicate with the server in new and innovative ways.
+					Offline and storage: allowing webpages to store data on the client-side locally and operate offline more efficiently.
+					Multimedia: making video and audio first-class citizens in the Open Web.
+					2D/3D graphics and effects: allowing a much more diverse range of presentation options.
+					Performance and integration: providing greater speed optimization and better usage of computer hardware.
+					Device access: allowing for the usage of various input and output devices.
+					Styling: letting authors write more sophisticated themes.
+					</p>
+					
+					
+					
+					<!-- End your code here  -->
+
+
+
+				</main>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

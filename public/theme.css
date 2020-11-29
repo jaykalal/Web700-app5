@@ -1,0 +1,18 @@
+body{
+    
+    background-image: linear-gradient(#366e94, black);
+    color: rgb(201, 196, 253);
+    background-repeat: no-repeat;
+}
+h1,h2,h3,h4,h5,h6{
+    
+  /*  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap'); */
+  font-family: 'Big Shoulders Stencil Display', cursive;
+   
+}
+tr:nth-last-child(odd){
+    background-color: #8578aa;
+}
+a:hover{
+    color: rgb(12, 12, 6);
+}
